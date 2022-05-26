@@ -1,0 +1,99 @@
+﻿Bidoof:
+
+HP: 59
+Attack: 45
+Defense: 40
+Sp. Attack: 35
+Sp. Defense: 40
+Speed: 31
+Level: 100
+
+Magikarp:
+
+HP: 20
+Attack: 10
+Defense: 55
+Sp. Attack: 15
+Sp. Defense: 20
+Speed: 80
+Level: 100
+
+Mega Gengar:
+
+HP: 60
+Attack: 65
+Defense: 80
+Sp. Attack: 170
+Sp. Defense: 95
+Speed: 130
+Level: 100
+
+Mega Lucario:
+
+HP: 70
+Attack: 145
+Defense: 88
+Sp. Attack: 140
+Sp. Defense: 70
+Speed: 112
+Level: 100
+
+Mewtwo:
+
+HP: 106
+Attack: 110
+Defense: 90
+Sp. Attack: 154
+Sp. Defense: 90
+Speed: 130
+Level: 100
+
+Tyrantrum:
+
+HP: 82
+Attack: 121
+Defense: 119
+Sp. Attack: 69
+Sp. Defense: 59
+Speed: 71
+Level: 100
+
+Mega Aerodactyl:
+
+HP: 80
+Attack: 135
+Defense: 85
+Sp. Attack: 70
+Sp. Defense: 95
+Speed: 150
+Level: 100
+
+Mega Charizard X:
+
+HP: 78
+Attack: 130
+Defense: 111
+Sp. Attack: 130
+Sp. Defense: 85
+Speed: 100
+Level: 100
+
+Dialga:
+
+HP: 100
+Attack: 120
+Defense: 120
+Sp. Attack: 150
+Sp. Defense: 100
+Speed: 90
+Level: 100
+
+Gardevoir:
+
+HP: 68
+Attack: 65
+Defense: 65
+Sp. Attack: 125
+Sp. Defense: 115
+Speed: 80
+Level: 100

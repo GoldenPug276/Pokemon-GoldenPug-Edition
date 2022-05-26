@@ -1,0 +1,64 @@
+﻿Bidoof:
+
+Superpower  Type:Fighting  Cat.:Physical  Pwr.:120  Acc.:100%  PP:5
+Hyper Fang  Type:Normal  Cat.:Physical  Pwr.:80  Acc.:90%  PP:15
+Crunch  Type:Dark  Cat.:Physical  Pwr.:80  Acc.:100%  PP:15
+Ice Beam  Type:Ice  Cat.:Special  Pwr.:90  Acc.:100%  PP:10
+
+Magikarp:
+
+Bounce  Type:Flying  Cat.:Physical  Pwr.:85  Acc.:85%  PP:5
+Tackle	Type:Normal  Cat.:Physical  Pwr.:40  Acc.:100% PP:35
+Hydro Pump  Type:Water  Cat.:Special  Pwr.:110  Acc.:80% PP:5
+Splash  Type:Normal  Cat.:Status  Pwr.:0  Acc.:0%  PP:40
+
+Mega Gengar:
+
+Dark Pulse  Type:Dark  Cat.:Special  Pwr.:80  Acc.:100%  PP:15
+Shadow Ball  Type:Ghost  Cat.:Special  Pwr.:80  Acc.:100%  PP:15
+Thunder Punch  Type:Electric  Cat.:Physical  Pwr.:75  Acc.:100%  PP:15
+Brick Break  Type:Fighting  Cat.:Physical  Pwr.:75  Acc.:100%  PP:15
+
+Mega Lucario:
+
+Aura Sphere	Type:Fighting	Cat.:Special	Pwr.:80	Acc.:100%	PP:20
+Quick Attack	Type:Normal	Cat.:Physical	Pwr.:40	Acc.:100%	PP:30
+Dragon Pulse	Type:Dragon	Cat.:Special	Pwr.:85	Acc.:100%	PP:10
+Meteor Mash	Type:Steel	Cat.:Physical	Pwr.:90	Acc.:90%	PP:10
+
+Mewtwo:
+
+Psychic	Type:Psychic	Cat.:Special	Pwr.:90	Acc.:100%	PP:10
+Psycho Cut	Type:Psychic	Cat.:Physical	Pwr.:70	Acc.:100%	PP:20
+Zen Headbutt	Type:Psychic	Cat.:Physical	Pwr.:80	Acc.:90%	PP:15
+Earthquake	Type:Ground	Cat.:Physical	Pwr.:100	Acc.:100%	PP:10
+
+Tyrantrum:
+Dragon Claw	Type:Dragon	Cat.:Physical	Pwr.:80	Acc.:100%	PP:15
+Bulldoze	Type:Ground	Cat.:Physical	Pwr.:60	Acc.:100%	PP:20
+Hyper Voice	Type:Normal	Cat.:Special	Pwr.:90	Acc.:100%	PP:10
+Horn Drill	Type:Normal	Cat.:Physical	Pwr.:99999	Acc.:30%	PP:5
+
+Mega Aerodactyl:
+Stone Edge	Type:Rock	Cat.:Physical	Pwr.:100	Acc.:80%	PP:5
+Hurricane	Type:Flying	Cat.:Special	Pwr.:110	Acc.:70%	PP:10
+Iron Tail	Type:Steel	Cat.:Physical	Pwr.:100	Acc.:75%	PP:15
+Rock Slide	Type:Rock	Cat.:Physical	Pwr.:75	Acc.:90%	PP:10
+
+Mega Charizard X:
+Flare Blitz	Type:Fire	Cat.:Physical	Pwr.:120	Acc.:100%	PP:15
+Inferno	Type:Fire	Cat.:Special	Pwr.:100	Acc.:50%	PP:5
+Blaze Kick	Type:Fire	Cat.:Physical	Pwr.:85	Acc.:90%	PP:10
+Overheat	Type:Fire	Cat.:Special	Pwr.:130	Acc.:90%	PP:5
+
+Dialga:
+Roar of Time	Type:Dragon	Cat.:Special	Pwr.:150	Acc.:90%	PP:5
+Breaking Swipe	Type:Dragon	Cat.:Physical	Pwr.:60	Acc.:100%	PP:15
+Body Press	Type:Fighting	Cat.:Physical	Pwr.:80	Acc.:100%	PP:10
+Flash Cannon	Type:Steel	Cat.:Special	Pwr.:80	Acc.:100%	PP:10
+
+Gardevoir:
+Psyshock	Type:Psychic	Cat.:Special	Pwr.:80	Acc.:100%	PP:10
+Focus Blast	Type:Firghting	Cat.:Special	Pwr.:120	Acc.:70%	PP:5
+Shadow Ball	Type:Ghost	Cat.:Special	Pwr.:80	Acc.:100%	PP:15
+Mega Kick	Type:Normal	Cat.:Physical	Pwr.:120	Acc.:75%	PP:5

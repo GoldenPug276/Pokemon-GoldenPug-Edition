@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0039AFFA-F6B2-42A1-A445-5B74E1B39FE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pokemon_GoldenPug_Edition</RootNamespace>
+    <AssemblyName>Pokemon GoldenPug Edition</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Move.cs" />
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bidoof-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BwSatellite-K5Ye.ttf" />
+    <None Include="Resources\gengar mega-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lucario mega-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magikarp-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mewtwo-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\PokemonHollowNormal-pyPZ.ttf" />
+    <EmbeddedResource Include="Resources\PokemonSolidNormal-xyWR.ttf" />
+    <None Include="Resources\pokemon_pixel_font.ttf" />
+    <None Include="Resources\tyrantrum-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bidoof-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gengar mega-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lucario mega-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magikarp-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mewtwo-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyrantrum-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerodactyl mega-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard megax-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialga-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir-back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerodactyl mega-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard megax-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialga-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir-front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Moves.txt" />
+    <None Include="Resources\Kill Me.gif" />
+    <None Include="Resources\Send Help.gif" />
+    <None Include="Resources\PBC %281%29.png" />
+    <None Include="Resources\PBC %282%29.png" />
+    <None Include="Resources\Empty Player Health Bar.png" />
+    <None Include="Resources\Empty Enemy Health Bar.png" />
+    <None Include="Resources\Move Templates.png" />
+    <None Include="Resources\Bug Move.png" />
+    <None Include="Resources\Dark Move.png" />
+    <None Include="Resources\Dragon Move.png" />
+    <None Include="Resources\Electric Move.png" />
+    <None Include="Resources\Fighting Move.png" />
+    <None Include="Resources\Fire Move.png" />
+    <None Include="Resources\Flying Move.png" />
+    <None Include="Resources\Ghost Move.png" />
+    <None Include="Resources\Grass Move.png" />
+    <None Include="Resources\Ground Move.png" />
+    <None Include="Resources\Normal Move.png" />
+    <None Include="Resources\Poison Move.png" />
+    <None Include="Resources\Psychic Move.png" />
+    <None Include="Resources\Rock Move.png" />
+    <None Include="Resources\Steel Move.png" />
+    <None Include="Resources\Water Move.png" />
+    <None Include="Resources\Fight GUI.png" />
+    <None Include="Resources\POKEMON.png" />
+    <None Include="Resources\BAG.png" />
+    <None Include="Resources\FIGHT.png" />
+    <None Include="Resources\RUN.png" />
+    <None Include="Resources\Ice Move.png" />
+    <None Include="Resources\PBC.png" />
+    <None Include="Resources\PBC %285%29.png" />
+    <None Include="Resources\Pokemon-Logo.png" />
+    <None Include="Resources\Background.png" />
+    <Content Include="Stats.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
